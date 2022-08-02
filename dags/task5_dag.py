@@ -32,13 +32,10 @@ def push_to_mongo(**kwargs):
         fs.put(file)
 
 
-
-
 default_args = {
     'owner': 'coder2j',
     'retries': 5,
     'retry_delay': timedelta(minutes=2)
-    # 'pool': 'task5_pool'
 }
 
 
